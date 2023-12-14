@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: multi-platform-test
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/arewm-tenant/multi-platform-test/multi-platform-test@sha256:326f8456eefee1fd47792f153716c2ce581851d3af85b98065e957c3d239a87a
+      - image: quay.io/redhat-user-workloads/arewm-tenant/multi-platform-test/multi-platform-test@sha256:b3a10d044f4b4ce7a7f52976a8e43b47b04f4d960363a0fe15b53b2759b1e6e5
         name: my-go
         resources: {}
 status: {}
