@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/arewm-tenant/multi-platform-test/multi-platform-test@sha256:b3a10d044f4b4ce7a7f52976a8e43b47b04f4d960363a0fe15b53b2759b1e6e5
+      - image: quay.io/redhat-user-workloads/arewm-tenant/multi-platform-test/multi-platform-test@sha256:a5f37310d3771c62f344fe3bb35f56a70d43b53660496d28792d7b08986813b9
         name: my-go
         resources: {}
 status: {}
