@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: multi-platform-test
     app.kubernetes.io/part-of: multi-platform-test
-  name: multi-platform-test34sj
+  name: multi-platform-testfwto
 spec:
   path: /
   port:
